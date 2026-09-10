@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.textarea-container {
+    position: relative;
+}
+
+.textarea-container span {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

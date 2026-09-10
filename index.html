@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restricted Text area</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h2>Write your Message</h2>
+
+        <div class="textarea-container">
+            <textarea id="message" placeholder="Start typing..." maxlength="250" ></textarea>
+
+            <span id="counter">0 / 250</span>
+        </div>
+    </div>
     <script src="script.js"></script>
+
 </body>
 </html>
